@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html>
+    
+    <head>
+        
+    </head>
+    
+    <body>
+         
+ 
+
+        
+        
+       
+    </body>
+<script type="text/javascript">
+  
+
+var pierwsza=0;
+var druga=0;
+  
+do{    
+while(pierwsza>=druga)
+    {
+    var pierwsza = parseInt(window.prompt("Podaj Pierwsza"));
+    var druga = parseInt(window.prompt("Podaj Druga"));
+    }
+
+function tabliczka() {
+document.write("<table border=\"1\">");
+
+    
+for (i=pierwsza; i<=druga; i++)
+    {
+            document.write("<tr><td>" + i + "</td>");
+            for (j=pierwsza; j<=druga; j++)
+                {
+                        if (j != 1) {
+                        document.write("<td>" + i*j + "</td>");
+                                    }
+                }
+document.write("</tr>");
+    }
+document.write("</table>");
+                        }
+ }
+    while(pierwsza || druga != NaN)
+</script> 
+           
+        <script>tabliczka();</script> 
+</html>
